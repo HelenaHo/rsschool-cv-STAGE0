@@ -17,15 +17,15 @@ html {
   }
 
 .header {
-    border: 1px solid red;
+    border: 1px solid aquamarine;
 }
 
 .main {
-    border: 1px solid red;
+    border: 1px solid aquamarine;
 }
 
 .footer {
-    border: 1px solid red;
+    border: 1px solid aquamarine;
 }
 
 .container {
