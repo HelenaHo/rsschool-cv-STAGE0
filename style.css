@@ -7,8 +7,8 @@ body {
     font-size: 18px;
     font-weight: normal;
     line-height: 1.5;
-    color: #302c2c;
-    background-color: rgb(247, 246, 255);
+    color: #26243b;
+    background-color: rgb(231, 231, 231);
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -26,17 +26,10 @@ html {
     scroll-behavior: smooth; 
   }
 
-.header {
-
-}
-
-.main {
-
-}
-
 .footer {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 50px;
 }
 
 .footer_item {
@@ -67,7 +60,7 @@ html {
 }
 
 .navigation-item a:hover {
-    color: rgb(120, 184, 236);
+    color: #ddae71;
 }
 
 .profile-container {
@@ -92,8 +85,12 @@ html {
     margin: 0 auto;
     min-width: 350px;
     display: block;
-    margin: auto;
-    
+    margin: auto;    
+}
+
+.section-title {
+    font-size: 28px;
+    color: #415b81;
 }
 
 .profile-section-item {
@@ -101,7 +98,7 @@ html {
 }
   
 .phone a {
-	color: rgb(120, 184, 236);
+	color: #415b81;
     text-decoration: none;
 }
 
@@ -129,12 +126,12 @@ html {
 
 .contact-link {
     text-decoration: none;
-    color: rgb(120, 184, 236);
+    color: #415b81;
     transition: color 0.5s;
   }
   
   .contact-link:hover {
-    color: #248032;
+    color: #ddae71;
   }
 
   .course_link {
