@@ -60,7 +60,7 @@ html {
 }
 
 .navigation-item a:hover {
-    color: #ddae71;
+    color: #ddae71; 
 }
 
 .profile-container {
@@ -151,4 +151,5 @@ html {
 
   .github_logo {
     width: 50px;
+    border-radius: 50%;
   }
