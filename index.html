@@ -4,67 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navigation">
-                <ul class="navigation-list">
-                  <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
-                  <li class="navigation-item"><a href="#summary" class="navigation-link">Summary</a></li>
-                  <li class="navigation-item"><a href="#skills" class="navigation-link">Skills</a></li>
-                  <li class="navigation-item"><a href="#code" class="navigation-link">Code</a></li>
-                  <li class="navigation-item"><a href="#courses" class="navigation-link">Courses</a></li>
-                  <li class="navigation-item"><a href="#projects" class="navigation-link">Projects</a></li>
-                  <li class="navigation-item"><a href="#education" class="navigation-link">Education</a></li>
-                  <li class="navigation-item"><a href="#english" class="navigation-link">English</a></li>
-                </ul>
-              </navigation>
-        </div>
-    </header>
-    <main class="main">
-
-        <div class="container">
-            <section class="section profile-section" id="profile">
-                <img src="/HelenaHo.jpg" alt="Avatar photo" class="avatar-image">
-            <h1 class="section-title">Olena Honcharenko</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt maiores ad sint libero ipsam facere veritatis nisi quidem, quae nulla. Placeat illo atque labore, at veritatis debitis iusto impedit. Temporibus tenetur a, sit dignissimos at voluptate recusandae eum tempore eaque, ad labore voluptatum exercitationem suscipit, quam error consequuntur amet voluptates.</p>
-        </section></div>
-
-        <div class="container main-container">
-            
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <div class="phone"><a href="tel:+380669546***">+38 066 95 46 ***</a></div>
-                <a href="https://www.instagram.com/" class="contact-link">Instagram</a>
-            </section>
-            <section class="section" id="summary">
-                <h2 class="section-title">Summary</h2>
-            </section>
-            <section class="section" id="skills">
-                <h2 class="section-title">Skills</h2>
-            </section>
-            <section class="section" id="courses">
-                <h2 class="section-title">Courses</h2>
-            </section>
-            <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-            </section>
-            <section class="section" id="english">
-                <h2 class="section-title">English</h2>
-            </section>
-        </div>
-    </main>
-    <footer class="footer">I'm footer
-        <div class="container"></div>
-    </footer>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="navigation">
+                    <ul class="navigation-list">
+                    <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
+                    <li class="navigation-item"><a href="#skills" class="navigation-link">Skills</a></li>
+                    <li class="navigation-item"><a href="#code" class="navigation-link">Code</a></li>
+                    <li class="navigation-item"><a href="#courses" class="navigation-link">Courses</a></li>
+                    <li class="navigation-item"><a href="#education" class="navigation-link">Education</a></li>
+                    <li class="navigation-item"><a href="#english" class="navigation-link">English</a></li>
+                    </ul>
+                </navigation>
+            </div>
+        </header>
     
+        <main class="main">
+        
+            <div class="container profile-container">
+                <section class="section profile-section" id="profile">
+                    <img src="/HelenaHo.jpg" alt="Avatar photo" class="avatar-image">
+                    <h1 class="section-title">Olena Honcharenko</h1>
+                    <p>I study now to get a job at the IT sector. Learning something new forces me to keep my mind active and pushes me to try new things.</p>
+                </section>
+            </div>
+
+            <div class="container main-container">
+                
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li><div class="phone"><a href="tel:+380669546***">+38 066 95 46 ***</a></div></li>
+                        <li><a class="contact-link" href="https://www.instagram.com/">Instagram</a></li>
+                        <li><a class="contact-link" href="https://github.com/HelenaHo">GitHub</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript Basics</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <pre><code>
+const hasChar = (str, char) => {
+let i = 0;
+while (i < str.length) {
+  if (str[i] === char) {
+    return true;
+}
+i += 1;
+}
+return false;
+};</code></pre>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title">Courses</h2>
+                        <ul>
+                            <li><a class="course_link" href="https://rs.school/js/">The rolling Scopes School</a></li>
+                            <li><a class="course_link" href="https://code-basics.com/ru/languages/html">Code Basic HTML</a></li>
+                            <li><a class="course_link" href="https://code-basics.com/ru/languages/css">Code Basic CSS</a></li>
+                            <li><a class="course_link" href="https://code-basics.com/ru/languages/javascript">Code Basic JavaScript</a></li>
+                            <li><a class="course_link" href="https://m.goit.global/ua/?utm_source=google&utm_medium=cpc&utm_campaign=ay_search_goit_marathon_eu&utm_content=programming_courses&utm_term=%D0%BA%D1%83%D1%80%D1%81%D1%8B%20%D0%B4%D0%BB%D1%8F%20it&gclid=CjwKCAiAkfucBhBBEiwAFjbkr2Tp7B7wPIWJeO5pm6n37VfKWksT3042hQpaY2M8d77t658tuVC2nBoCDA8QAvD_BwE">GoIT marathones</a></li>
+                        </ul>
+                </section>
+                <!-- <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul>
+                        <li><a href=" https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript"></a></li>
+                        <li><a href="https://HelenaHo.github.io/rsschool-cv/cv"></a></li>
+                    </ul>
+                </section> -->
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>Chemistry Bachelor</li>
+                        <li>Master's degree in economics</li>
+                    </ul>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <ul>
+                        <li>Upper-Intermediate (A2+)</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://rs.school/js/"><img class="school_logo" src="/rs_school_js.svg" alt="rsschool_logo"></a>
+            <span class="footer_item">2022</span>
+            <a href="https://github.com/HelenaHo"><img class="github_logo" src="/GitHub_logo.png" alt="HelenaHo_github"></a>
+        </div>
+    </footer>
+    </div>    
 </body>
 </html>
