@@ -27,15 +27,14 @@ html {
   }
 
 .header {
-    border: 1px solid aquamarine;
+
 }
 
 .main {
-    border: 1px solid aquamarine;
+
 }
 
 .footer {
-    border: 1px solid aquamarine;
     display: flex;
     flex-wrap: wrap;
 }
@@ -72,12 +71,14 @@ html {
 }
 
 .profile-container {
-    
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .profile-section {
-    /* float: left; */
-    
+    display: block;
 }
 
 .main-container {
@@ -86,8 +87,17 @@ html {
 }
 
 .avatar-image {
-    width: 300px;
+    width: 30%;
     border-radius: 50%;
+    margin: 0 auto;
+    min-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+.profile-section-item {
+   color: #573636;
 }
   
 .phone a {
@@ -109,6 +119,12 @@ html {
     font-size: 22px;
     font-weight: bold;    
     font-style: oblique;
+    width: 50%;
+}
+
+.section-title-main {
+    font-size: 42px;
+    color: #573636;
 }
 
 .contact-link {
@@ -129,7 +145,7 @@ html {
 
   .course_link:hover {
     text-decoration: underline;
-    color: #248032;
+    
   }
 
   .school_logo {
