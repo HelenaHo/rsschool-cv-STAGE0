@@ -13,12 +13,19 @@ https://www.instagram.com/
 * Master's degree in economics
 * The rolling Scopes School
 
-## Skills
+## Hard-skills
 
 * Learning/adaptability skills
 * Self-management skills
 * Open-mindedness
 * Strong work ethic
+
+## Skills 
+
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code
 
 ## Experience
 * https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript
